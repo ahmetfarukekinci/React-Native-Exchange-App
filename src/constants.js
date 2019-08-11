@@ -1,5 +1,5 @@
 // please get your own api key from https://fixer.io/
-const API_KEY='2c92d87ca9f9c47c83c65dab893bb55a'
+const API_KEY='get your own api key'
 
 // if you want to get more symbols you can add their name to end point. 
 // if you want to get all of the symbols please delete symbols from end point
