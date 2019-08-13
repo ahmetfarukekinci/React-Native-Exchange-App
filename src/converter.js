@@ -44,7 +44,8 @@ class Converter extends Component{
                 const i = parseFloat(text) || 0; 
                 this.setState({
                     input : text,
-                    tl : (i * rates['TRY']),
+                    // toFixed() is method that returns a string representing a number in fixed-point notation.
+                    tl : (i * rates['TRY']).toFixed(3),
                     usd : (i * rates['USD']).toFixed(3),
                     cad : (i * rates['CAD']).toFixed(3),
                     eur : (i * rates['EUR']).toFixed(3),
